@@ -1,0 +1,73 @@
+html 
+{
+background: #231F20;
+  position: relative;
+  min-height: 100%;
+}
+body 
+{
+    background: #231F20;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+    background: #454545;
+    margin-bottom: 80px;
+}
+.container
+{
+    background: #231F20;
+}
+
+
+/*********************************/
+/************ @media *************/
+/*********************************/
+@media (max-width:991px)
+{
+    .backgroundVideo body
+    {
+        /* Full background image because video can't autoplay on mobile & tablet devices */
+        background: url('../images/bg1.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+}
+@media (max-width:767px)
+{
+    h1.logo 
+    {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    #countdown .countdown_group
+    {
+        padding: 0px 10px;
+    }
+    
+    #countdown .countdown_group .countdown_value 
+    {
+        font-size: 30px;
+    }
+    
+    #footer p 
+    {
+        font-size: 11px;
+    }
+    
+    #about_us 
+    {
+        padding: 20px 10px;
+    }
+    
+    #about_us p 
+    {
+        text-align: left;
+    }
+    
+    
+}
